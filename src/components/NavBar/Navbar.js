@@ -13,6 +13,7 @@ const Navbar = () => {
       <Link to="/importExportChallenge">importExportChallenge</Link>
       <Link to="/Cards">Cards</Link>
       <Link to="/Emojipedia">Emojipedia</Link>
+      <Link to="/Keeper">Keeper</Link>
       <Link to="/"></Link>
     </div>
   );

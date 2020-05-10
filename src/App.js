@@ -19,6 +19,7 @@ import contacts from "./components/Card/contacts";
 import Emojipedia from "./components/Emojipedia/Emojipedia";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "./components/NavBar/Navbar";
+import Keeper from "./components/Keeper/Keeper";
 
 function App() {
   const createCard = (contact) => {
@@ -42,7 +43,7 @@ function App() {
             <span className="logo" aria-label="react" role="img">
               🌐
             </span>
-            React Angela Yu
+            React Practice
           </h1>
         </Link>
 
@@ -83,6 +84,9 @@ function App() {
           </Route>
           <Route path="/Emojipedia">
             <Emojipedia />
+          </Route>
+          <Route path="/Keeper">
+            <Keeper />
           </Route>
 
           <Route path="/">
