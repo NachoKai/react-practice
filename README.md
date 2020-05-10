@@ -1,13 +1,13 @@
 ## Review:
 
-•Attributes and Styling
-•Components
-•Import, Export and Modules
-•Props
-•Devtools
-•Mapping Data
-•Map Filter Reduce
-•Conditional Rendering with Ternary Operator
+•Attributes and Styling  
+•Components  
+•Import, Export and Modules  
+•Props  
+•Devtools  
+•Mapping Data  
+•Map Filter Reduce  
+•Conditional Rendering with Ternary Operator  
 •React Router
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

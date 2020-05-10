@@ -38,7 +38,7 @@ function App() {
     <Router>
       <div className="App">
         <Link to="/">
-          <h1>React Angela Yu</h1>
+          <h1>🌐 React Angela Yu</h1>
         </Link>
 
         <Switch>
