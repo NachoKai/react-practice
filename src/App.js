@@ -38,7 +38,12 @@ function App() {
     <Router>
       <div className="App">
         <Link to="/">
-          <h1>🌐 React Angela Yu</h1>
+          <h1>
+            <span className="logo" aria-label="react" role="img">
+              🌐
+            </span>
+            React Angela Yu
+          </h1>
         </Link>
 
         <Switch>
