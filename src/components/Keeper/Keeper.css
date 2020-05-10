@@ -1,11 +1,11 @@
 header {
-  background-color: #f5ba13;
+  background-color: #2ec2b0;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-  color: #222;
+  color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
 }

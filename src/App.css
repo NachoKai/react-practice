@@ -6,10 +6,9 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 100%;
   background-color: #222;
   color: #eee;
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
