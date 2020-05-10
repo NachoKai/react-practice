@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #74c0fc;
+  font-weight: bold;
+  margin: 0.5rem 1rem;
+}
