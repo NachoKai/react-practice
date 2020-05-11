@@ -23,6 +23,7 @@ import Keeper from "./components/Keeper/Keeper";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Counter from "./components/Counter/Counter";
+import Time from "./components/Time/Time";
 
 function App() {
   const createCard = (contact) => {
@@ -99,6 +100,9 @@ function App() {
           </Route>
           <Route path="/Counter">
             <Counter />
+          </Route>
+          <Route path="/Time">
+            <Time />
           </Route>
 
           <Route path="/">
