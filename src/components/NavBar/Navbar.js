@@ -18,6 +18,7 @@ const Navbar = () => {
       <Link to="/Register">Register</Link>
       <Link to="/Counter">Counter</Link>
       <Link to="/Time">Time</Link>
+      <Link to="/Destructuring">Destructuring</Link>
       <Link to="/"></Link>
     </div>
   );

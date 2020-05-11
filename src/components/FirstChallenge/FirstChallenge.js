@@ -19,7 +19,7 @@ const FirstChallenge = () => {
           </span>
         </li>
         <li>
-          Fruits{" "}
+          Fruits
           <span role="img" aria-label="Banana">
             🍌
           </span>
