@@ -25,6 +25,7 @@ import Register from "./components/Register/Register";
 import Counter from "./components/Counter/Counter";
 import Time from "./components/Time/Time";
 import Destructuring from "./components/Destructuring/Destructuring";
+import EventHandling from "./components/EventHandling/EventHandling";
 
 function App() {
   const createCard = (contact) => {
@@ -107,6 +108,9 @@ function App() {
           </Route>
           <Route path="/Destructuring">
             <Destructuring />
+          </Route>
+          <Route path="/EventHandling">
+            <EventHandling />
           </Route>
 
           <Route path="/">

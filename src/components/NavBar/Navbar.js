@@ -19,6 +19,7 @@ const Navbar = () => {
       <Link to="/Counter">Counter</Link>
       <Link to="/Time">Time</Link>
       <Link to="/Destructuring">Destructuring</Link>
+      <Link to="/EventHandling">EventHandling</Link>
       <Link to="/"></Link>
     </div>
   );
