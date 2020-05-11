@@ -20,6 +20,8 @@ import Emojipedia from "./components/Emojipedia/Emojipedia";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "./components/NavBar/Navbar";
 import Keeper from "./components/Keeper/Keeper";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 
 function App() {
   const createCard = (contact) => {
@@ -87,6 +89,12 @@ function App() {
           </Route>
           <Route path="/Keeper">
             <Keeper />
+          </Route>
+          <Route path="/Login">
+            <Login />
+          </Route>
+          <Route path="/Register">
+            <Register />
           </Route>
 
           <Route path="/">
