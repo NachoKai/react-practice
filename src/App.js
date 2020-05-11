@@ -22,6 +22,7 @@ import Navbar from "./components/NavBar/Navbar";
 import Keeper from "./components/Keeper/Keeper";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
+import Counter from "./components/Counter/Counter";
 
 function App() {
   const createCard = (contact) => {
@@ -95,6 +96,9 @@ function App() {
           </Route>
           <Route path="/Register">
             <Register />
+          </Route>
+          <Route path="/Counter">
+            <Counter />
           </Route>
 
           <Route path="/">
