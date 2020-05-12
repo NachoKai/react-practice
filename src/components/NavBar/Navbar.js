@@ -21,6 +21,7 @@ const Navbar = () => {
       <Link to="/Destructuring">Destructuring</Link>
       <Link to="/EventHandling">EventHandling</Link>
       <Link to="/ComplexState">ComplexState</Link>
+      <Link to="/ToDo">ToDo List</Link>
       <Link to="/"></Link>
     </div>
   );
