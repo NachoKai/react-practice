@@ -26,6 +26,7 @@ import Counter from "./components/Counter/Counter";
 import Time from "./components/Time/Time";
 import Destructuring from "./components/Destructuring/Destructuring";
 import EventHandling from "./components/EventHandling/EventHandling";
+import ComplexState from "./components/ComplexState/ComplexState";
 
 function App() {
   const createCard = (contact) => {
@@ -111,6 +112,9 @@ function App() {
           </Route>
           <Route path="/EventHandling">
             <EventHandling />
+          </Route>
+          <Route path="/ComplexState">
+            <ComplexState />
           </Route>
 
           <Route path="/">

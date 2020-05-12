@@ -20,6 +20,7 @@ const Navbar = () => {
       <Link to="/Time">Time</Link>
       <Link to="/Destructuring">Destructuring</Link>
       <Link to="/EventHandling">EventHandling</Link>
+      <Link to="/ComplexState">ComplexState</Link>
       <Link to="/"></Link>
     </div>
   );
