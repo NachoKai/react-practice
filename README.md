@@ -8,7 +8,13 @@
 •Mapping Data  
 •Map Filter Reduce  
 •Conditional Rendering with Ternary Operator  
-•React Router
+•React Router  
+•State/Hooks  
+•Object & Array Destructuring  
+•Event Handling  
+•Forms  
+•Spread Operator  
+•Component Tree
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
