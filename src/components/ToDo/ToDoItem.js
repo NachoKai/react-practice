@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-const ToDoItem = (props) => {
+const ToDoItem = props => {
   const [checked, setChecked] = useState(false);
 
   function handleCheck() {
-    setChecked((prevValue) => {
+    setChecked(prevValue => {
       return !prevValue;
     });
   }
@@ -12,7 +12,8 @@ const ToDoItem = (props) => {
   return (
     <li
       onClick={handleCheck}
-      style={{ textDecoration: checked ? "line-through" : "none" }}
+      className='todo-li'
+      style={{ textDecoration: checked ? 'line-through' : 'none' }}
     >
       {props.item}
     </li>
